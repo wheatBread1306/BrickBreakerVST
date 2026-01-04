@@ -39,3 +39,73 @@
 
 # debug information files
 *.dwo
+
+# ビルド成果物 / Build Artifacts
+Builds/
+build/
+*.vst3
+*.component
+*.vst
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# JUCE生成ファイル / JUCE Generated Files
+JuceLibraryCode/
+*.jucer.bak
+
+# IDE設定ファイル / IDE Settings
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.xcodeproj/
+*.xcworkspace/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.cmake
+
+# コンパイラ生成ファイル / Compiler Generated
+*.o
+*.obj
+*.pch
+*.ipch
+*.idb
+*.pdb
+*.ilk
+*.log
+*.tlog
+
+# デバッグ情報 / Debug Info
+*.dSYM/
+
+# 一時ファイル / Temporary Files
+*.tmp
+*.temp
+*~
+
+# パッケージファイル / Package Files
+*.zip
+*.tar.gz
+*.rar
