@@ -32,16 +32,18 @@ This project demonstrates several advanced JUCE concepts:
 - **Lock-Free Synchronization**: Using `std::atomic` and `std::shared_ptr` (atomic load/store) to pass game state from the processing thread to the UI thread without blocking the audio path.
 - **MIDI Processing**: Extracting and normalizing Pitch Wheel values within the `processBlock` loop.
 - **Double Buffering**: Implementing a snapshot system for the game objects to ensure the UI always renders a consistent state of the game world.
-
+  
 ## Build Instructions
 
-To build this plugin from source:
+To build this plugin from source using the Projucer:
 
-1. Clone this repository.
-2. Open the `CMakeLists.txt` in your IDE (VS Code, CLion) or use the **Projucer** to create a project from the source files.
-3. Ensure you have the [JUCE framework](https://juce.com/) installed and configured.
-4. Build the target (VST3 or AU).
-5. Load the plugin into your DAW and ensure MIDI input is routed to the plugin track.
+1. Clone this repository to your local machine.
+2. Ensure you have the [JUCE framework](https://juce.com/get-juce) installed.
+3. Open the `BrickBreaker.jucer` file in the **Projucer** application.
+4. If necessary, check the Global Paths in Projucer to ensure they point to your local JUCE modules.
+5. Click the **"Save and Open in IDE"** button to generate the project for your environment (e.g., Visual Studio for Windows, Xcode for macOS).
+6. Build the target (VST3, AU, or Standalone) from within your IDE.
+7. Load the compiled plugin into your DAW and ensure MIDI input is routed to the plugin track to control the paddle.
 
 ## Download
 
