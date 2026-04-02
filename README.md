@@ -43,6 +43,12 @@ To build this plugin from source:
 4. Build the target (VST3 or AU).
 5. Load the plugin into your DAW and ensure MIDI input is routed to the plugin track.
 
+## Acknowledgments
+
+This software was built using the **JUCE 8.0.12** framework. 
+- [JUCE Website](https://juce.com/)
+- [JUCE License](https://juce.com/get-juce)
+
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
