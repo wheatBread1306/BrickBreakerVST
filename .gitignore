@@ -1,0 +1,54 @@
+# JUCE / Projucer generated build folders
+Builds/
+Binaries/
+
+# JUCE generated binary resource outputs
+JuceLibraryCode/BinaryData.*
+
+# Visual Studio cache and user files
+.vs/
+*.VC.db
+*.VC.opendb
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiler and linker outputs
+*.obj
+*.o
+*.pch
+*.pdb
+*.ipdb
+*.iobj
+*.ilk
+*.idb
+*.exp
+*.lib
+*.a
+*.dll
+*.exe
+*.out
+*.app
+*.dylib
+*.so
+
+# Plugin binaries
+*.vst3
+*.component
+*.aaxplugin
+*.lv2
+*.clap
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Editor settings
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
