@@ -3,7 +3,8 @@
 <JUCERPROJECT id="F9zKet" projectType="audioplug" useAppConfig="0" addUsingNamespaceToJuceHeader="0"
               jucerFormatVersion="1" pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn"
               name="BrickBreaker" companyWebsite="https://github.com/wheatBread1306"
-              pluginVST3Category="Instrument" pluginFormats="buildStandalone,buildVST3">
+              pluginVST3Category="Instrument" pluginFormats="buildAU,buildStandalone,buildVST3"
+              version="1.0.2" companyName="WheatBreadPluginDev" companyCopyright="Copyright (c) 2026 wheatBread1306">
   <MAINGROUP id="BDRv13" name="BrickBreaker">
     <GROUP id="{8D4D23A2-9E4C-29A8-F824-CA8DE15C7C8A}" name="Source">
       <FILE id="AzfnEN" name="PluginProcessor.cpp" compile="1" resource="0"
