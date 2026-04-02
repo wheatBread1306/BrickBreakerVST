@@ -43,6 +43,11 @@ To build this plugin from source:
 4. Build the target (VST3 or AU).
 5. Load the plugin into your DAW and ensure MIDI input is routed to the plugin track.
 
+## Download
+
+You can download the pre-built Windows version (.vst3) from the [Releases](https://github.com/wheatBread1306/BrickBreakerVST/releases) page.
+*Note: Since the binary is unsigned, Windows SmartScreen may show a warning. You will need to click "More info" and "Run anyway" to use it.*
+
 ## Acknowledgments
 
 This software was built using the **JUCE 8.0.12** framework. 
