@@ -5,6 +5,10 @@ A classic Breakout-style game implemented as a VST3/AU audio plugin. Instead of 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Framework](https://img.shields.io/badge/framework-JUCE-green.svg)
 
+## Preview
+
+![yugwiufsieqrw](https://github.com/user-attachments/assets/7f41d868-a7be-4504-8cd7-1c66bb9c1566)
+
 ## Features
 
 - **MIDI Integration**: Real-time paddle control via MIDI Pitch Wheel messages.
