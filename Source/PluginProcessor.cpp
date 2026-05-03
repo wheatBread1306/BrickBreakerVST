@@ -129,7 +129,14 @@ void BreakoutAudioProcessor::updateGame()
 
     checkCollisions(nextBall, *nextBricks);
 
-    std::atomic_store_explicit(&bricksSnapshot, nextBricks, std::memory_order_release);
+    const auto visibleBrickCount = std::count_if(nextBricks->cbegin(), nextBricks->cend(),
+                                                 [](const Brick& brick) { return brick.active; });
+
+    if (visibleBrickCount == 0)
+        initializeBricks();
+    else
+        std::atomic_store_explicit(&bricksSnapshot, nextBricks, std::memory_order_release);
+
     ballBuffers[nextIndex] = nextBall;
     activeBallIndex.store(nextIndex, std::memory_order_release);
 }
