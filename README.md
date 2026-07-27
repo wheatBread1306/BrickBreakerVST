@@ -63,3 +63,7 @@ This software was built using the **JUCE 8.0.12** framework.
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
+
+> [!NOTE]
+> The JUCE library code used in this project is licensed under AGPLv3. 
+> While my original code is provided under the MIT License, please be aware that many parts of it depend on the JUCE framework.
